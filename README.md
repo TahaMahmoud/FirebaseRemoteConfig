@@ -8,6 +8,7 @@ Check [Google Firebase Remote Config Docs](https://firebase.google.com/docs/remo
 ```swift
 pod install
 ```
+## Don't Forget To Add "GoogleService-Info.plist"
    
 ## Authors:
 Created by 
