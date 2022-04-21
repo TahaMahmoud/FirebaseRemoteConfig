@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F0668232810022C006CE3C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F0668222810022C006CE3C6 /* GoogleService-Info.plist */; };
+		0F066825281003FD006CE3C6 /* RemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F066824281003FD006CE3C6 /* RemoteDataManager.swift */; };
+		0F2C513B281001290003D393 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2C513A281001290003D393 /* AppDelegate.swift */; };
+		0F2C513D281001290003D393 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2C513C281001290003D393 /* SceneDelegate.swift */; };
+		0F2C513F281001290003D393 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2C513E281001290003D393 /* ViewController.swift */; };
+		0F2C5142281001290003D393 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F2C5140281001290003D393 /* Main.storyboard */; };
+		0F2C51442810012A0003D393 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F2C51432810012A0003D393 /* Assets.xcassets */; };
+		0F2C51472810012A0003D393 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F2C51452810012A0003D393 /* LaunchScreen.storyboard */; };
+		165F1EF0EA9E00637B085896 /* Pods_RemoteConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4DF9D43BC7020701E21D1C /* Pods_RemoteConfig.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F0668222810022C006CE3C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0F066824281003FD006CE3C6 /* RemoteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataManager.swift; sourceTree = "<group>"; };
+		0F2C5137281001290003D393 /* RemoteConfig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoteConfig.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F2C513A281001290003D393 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0F2C513C281001290003D393 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0F2C513E281001290003D393 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0F2C5141281001290003D393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F2C51432810012A0003D393 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F2C51462810012A0003D393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0F2C51482810012A0003D393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C2A7518E9BD33A4C9F050C6 /* Pods-RemoteConfig.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemoteConfig.release.xcconfig"; path = "Target Support Files/Pods-RemoteConfig/Pods-RemoteConfig.release.xcconfig"; sourceTree = "<group>"; };
+		4E4DF9D43BC7020701E21D1C /* Pods_RemoteConfig.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RemoteConfig.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5941FBB9DDA54333A6861EAC /* Pods-RemoteConfig.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemoteConfig.debug.xcconfig"; path = "Target Support Files/Pods-RemoteConfig/Pods-RemoteConfig.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F2C5134281001290003D393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				165F1EF0EA9E00637B085896 /* Pods_RemoteConfig.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F2C512E281001290003D393 = {
+			isa = PBXGroup;
+			children = (
+				0F2C5139281001290003D393 /* RemoteConfig */,
+				0F2C5138281001290003D393 /* Products */,
+				E46555940D95EE6E34C26999 /* Pods */,
+				9A252AEC2797A453A86937BF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0F2C5138281001290003D393 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F2C5137281001290003D393 /* RemoteConfig.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F2C5139281001290003D393 /* RemoteConfig */ = {
+			isa = PBXGroup;
+			children = (
+				0F2C513A281001290003D393 /* AppDelegate.swift */,
+				0F2C513C281001290003D393 /* SceneDelegate.swift */,
+				0F2C513E281001290003D393 /* ViewController.swift */,
+				0F2C5140281001290003D393 /* Main.storyboard */,
+				0F2C51432810012A0003D393 /* Assets.xcassets */,
+				0F2C51452810012A0003D393 /* LaunchScreen.storyboard */,
+				0F2C51482810012A0003D393 /* Info.plist */,
+				0F0668222810022C006CE3C6 /* GoogleService-Info.plist */,
+				0F066824281003FD006CE3C6 /* RemoteDataManager.swift */,
+			);
+			path = RemoteConfig;
+			sourceTree = "<group>";
+		};
+		9A252AEC2797A453A86937BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E4DF9D43BC7020701E21D1C /* Pods_RemoteConfig.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E46555940D95EE6E34C26999 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5941FBB9DDA54333A6861EAC /* Pods-RemoteConfig.debug.xcconfig */,
+				4C2A7518E9BD33A4C9F050C6 /* Pods-RemoteConfig.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F2C5136281001290003D393 /* RemoteConfig */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F2C514B2810012A0003D393 /* Build configuration list for PBXNativeTarget "RemoteConfig" */;
+			buildPhases = (
+				3059593FF548E092032F1FE7 /* [CP] Check Pods Manifest.lock */,
+				0F2C5133281001290003D393 /* Sources */,
+				0F2C5134281001290003D393 /* Frameworks */,
+				0F2C5135281001290003D393 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemoteConfig;
+			productName = RemoteConfig;
+			productReference = 0F2C5137281001290003D393 /* RemoteConfig.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F2C512F281001290003D393 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					0F2C5136281001290003D393 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0F2C5132281001290003D393 /* Build configuration list for PBXProject "RemoteConfig" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F2C512E281001290003D393;
+			productRefGroup = 0F2C5138281001290003D393 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F2C5136281001290003D393 /* RemoteConfig */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F2C5135281001290003D393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F2C51472810012A0003D393 /* LaunchScreen.storyboard in Resources */,
+				0F0668232810022C006CE3C6 /* GoogleService-Info.plist in Resources */,
+				0F2C51442810012A0003D393 /* Assets.xcassets in Resources */,
+				0F2C5142281001290003D393 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3059593FF548E092032F1FE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RemoteConfig-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F2C5133281001290003D393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F2C513F281001290003D393 /* ViewController.swift in Sources */,
+				0F2C513B281001290003D393 /* AppDelegate.swift in Sources */,
+				0F066825281003FD006CE3C6 /* RemoteDataManager.swift in Sources */,
+				0F2C513D281001290003D393 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F2C5140281001290003D393 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F2C5141281001290003D393 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0F2C51452810012A0003D393 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F2C51462810012A0003D393 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F2C51492810012A0003D393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0F2C514A2810012A0003D393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F2C514C2810012A0003D393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5941FBB9DDA54333A6861EAC /* Pods-RemoteConfig.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R3ZWN56S89;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RemoteConfig/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taha.RemoteConfig;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F2C514D2810012A0003D393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C2A7518E9BD33A4C9F050C6 /* Pods-RemoteConfig.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R3ZWN56S89;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RemoteConfig/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taha.RemoteConfig;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F2C5132281001290003D393 /* Build configuration list for PBXProject "RemoteConfig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F2C51492810012A0003D393 /* Debug */,
+				0F2C514A2810012A0003D393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F2C514B2810012A0003D393 /* Build configuration list for PBXNativeTarget "RemoteConfig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F2C514C2810012A0003D393 /* Debug */,
+				0F2C514D2810012A0003D393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F2C512F281001290003D393 /* Project object */;
+}
