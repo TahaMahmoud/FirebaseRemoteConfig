@@ -3,12 +3,12 @@ Practice on using Firebase Remote Config
 
 Check [Google Firebase Remote Config Docs](https://firebase.google.com/docs/remote-config)
 
-## Don't Forget To Install Pods
+## - Don't Forget To Install Pods
 
 ```swift
 pod install
 ```
-## Don't Forget To Add "GoogleService-Info.plist"
+## - Don't Forget To Add "GoogleService-Info.plist"
    
 ## Authors:
 Created by 
